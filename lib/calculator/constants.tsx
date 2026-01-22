@@ -107,7 +107,7 @@ export const CALCULATOR_BUTTONS: ButtonConfig[] = [
 
   // 第七行：阶乘、幂运算、数字1-3和加法
   { value: '!', label: 'n!', variant: 'function' },
-  { value: '^', label: 'xʸ', variant: 'operator' },
+  { value: '^', label: 'xʸ', variant: 'function' },
   { value: '1', label: '1', variant: 'number' },
   { value: '2', label: '2', variant: 'number' },
   { value: '3', label: '3', variant: 'number' },

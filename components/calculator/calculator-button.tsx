@@ -43,7 +43,7 @@ export function CalculatorButton({
     switch (variant) {
       case 'number':
         // 数字键：最干净的白色/浅灰，保持高可读性
-        return 'bg-white/60 hover:bg-white/90 dark:bg-white/10 dark:hover:bg-white/20 text-slate-800 dark:text-slate-100 border border-white/20 dark:border-white/5 font-normal text-2xl';
+        return 'bg-white/60 hover:bg-white/90 dark:bg-white/10 dark:hover:bg-white/20 text-slate-800 dark:text-slate-100 text-base border border-white/20 dark:border-white/5 font-normal text-2xl';
       
       case 'operator':
         // 基本运算符：统一的活力橙色，引导操作流
@@ -51,11 +51,11 @@ export function CalculatorButton({
       
       case 'function':
         // 科学函数：统一的冷灰色调，低调不抢眼
-        return 'bg-slate-200/60 hover:bg-slate-200/90 dark:bg-slate-700/40 dark:hover:bg-slate-700/60 text-slate-700 dark:text-slate-300 text-sm font-medium border border-white/10';
+        return 'bg-slate-200/60 hover:bg-slate-200/90 dark:bg-slate-700/40 dark:hover:bg-slate-700/60 text-slate-700 dark:text-slate-300 text-base font-medium border border-white/10';
       
       case 'special':
         // 控制键 (C, Backspace)：统一的浅红色/警告色
-        return 'bg-rose-100 hover:bg-rose-200 dark:bg-rose-900/30 dark:hover:bg-rose-900/50 text-rose-600 dark:text-rose-300 font-medium border border-rose-200/20';
+        return 'bg-rose-100 hover:!bg-rose-200 hover:!text-rose-600 dark:bg-rose-900/30 dark:hover:!bg-rose-900/50 text-rose-600 dark:text-rose-300 dark:hover:!text-rose-300 font-medium border border-rose-200/20';
       
       case 'equals':
         // 等号：独特的蓝紫渐变，作为终点

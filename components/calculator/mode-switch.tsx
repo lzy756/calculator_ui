@@ -16,7 +16,7 @@ interface ModeSwitchProps {
  */
 export function ModeSwitch({ mode, onToggle }: ModeSwitchProps) {
   return (
-    <div className="flex items-center justify-center space-x-3 py-3 bg-slate-100 dark:bg-slate-800 rounded-lg mb-4">
+    <div className="flex items-center justify-center space-x-3 px-2 py-3 bg-slate-100 dark:bg-slate-800 rounded-lg mb-4">
       <label
         htmlFor="angle-mode"
         className={`text-sm font-semibold cursor-pointer ${
